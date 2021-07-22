@@ -1,7 +1,22 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+    font-size: 18px;
+}
 #my-name{
     font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 75px;
+    background-color: #ee6c4d;
+    color: #293241;
+    padding: 40px;
 }
-body {
-    font-family: 'Ubuntu', sans-serif;
+#image-main{
+    border-radius: 50%;
+}
+.icon{
+    width: 100px;
+}
+.tilte-section{
+    color: #e0fbfc;
+    background-color: #293241;
 }
