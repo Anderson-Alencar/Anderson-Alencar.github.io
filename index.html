@@ -3,6 +3,9 @@
     <head>
         <meta charset="UFT-8"> 
         <title>Anderson Alencar</title>
+        
+        <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.css">
+        <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +14,17 @@
     </head>
     <body>
         <h1 id="my-name">Anderson Alencar</h1>
-        <img src="images/perfil_linkedin.jpeg" id="image-main" alt="Foto de Anderson." width="300 px">
 
-        <h2 class="tilte-section">Quem sou?</h2>
-        
-        <p> <em> Fala galera!! Sou o Anderson, brasileiro da região nordeste (com muito orgulho, e muito amor) nascido em Fortaleza, no Ceará. Sou apaixonado por  <strong>Tecnologia e Educação</strong>. Aspirante a desenvolvedor web.</em> </p>
-
-        <img src="images/geek.png" class="icon" alt="">
+        <div class="ui items">
+            <div class="item">
+                <div class="ui small circular image">
+                    <img src="images/perfil_linkedin.jpeg" alt="Foto de Anderson." width="300 px">
+                </div>
+                <div class="header">
+                    <p> <em> Fala galera!! Sou o Anderson, brasileiro da região nordeste (com muito orgulho, e muito amor) nascido em Fortaleza, no Ceará. Sou apaixonado por  <strong>Tecnologia e Educação</strong>. Aspirante a desenvolvedor web.</em> </p>
+                </div>
+            </div>
+        </div>
 
         <h2 class="tilte-section">Skills - Em desenvolvimento (SEMPRE) </h2>
         <ul>
@@ -28,13 +35,27 @@
         </ul>
 
         <h2 class="tilte-section">Horas livres</h2>
-        <ul>
-            <li>Leitura</li>
-            <li>Assistir séries</li>
-            <li>CS:GO</li>
-            <li>Futebol - Jogar e <del>sofrer</del> assistir (Vamo vozão!!)</li>
-            <li>Pizza</li>
-        </ul>
         
+        <div class="ui grid">
+            <div class="row">
+                <div class="five wide column">
+                    <p>Leitura</p>
+                </div>
+                <div class="five wide column">
+                    <p>Assistir séries</p>
+                </div>
+                <div class="five wide column">
+                    <p>CS:GO</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="eight wide column">
+                    <p>Futebol - Jogar e <del>sofrer</del> assistir (Vamo vozão!!)</p>
+                </div>
+                <div class="eight wide column">
+                    <p>Pizza</p>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
