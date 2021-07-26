@@ -5,13 +5,16 @@ body {
 }
 #my-name{
     font-family: 'Zen Tokyo Zoo', cursive;
-    font-size: 75px;
+    font-size: 35px;
     background-color: #ee6c4d;
     color: #293241;
-    padding: 40px;
+    padding: 10px;
 }
-#image-main{
+.image-main{
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .icon{
     width: 100px;
@@ -19,4 +22,17 @@ body {
 .tilte-section{
     color: #e0fbfc;
     background-color: #293241;
+    padding: 7px;
+}
+.div-main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.my-description{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 400px;
+    text-align: center;
 }
