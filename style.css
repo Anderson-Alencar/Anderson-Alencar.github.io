@@ -8,21 +8,24 @@ body {
     font-size: 35px;
     background-color: #ee6c4d;
     color: #293241;
-    padding: 10px;
+    padding: 20px;
 }
 .image-main{
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #ee6c4d inset 4px;
 }
 .icon{
     width: 100px;
 }
 .tilte-section{
-    color: #e0fbfc;
-    background-color: #293241;
+    color: #293241;
+    border-bottom: #ee6c4d 5px solid;    
     padding: 7px;
+    margin-top: 60px;
+    text-transform: uppercase;
 }
 .div-main{
     margin-left: 100px;
@@ -35,4 +38,7 @@ body {
     margin-top: 15px;
     width: 400px;
     text-align: center;
+    background-color: #293241;
+    color: #ffffff;
+    border-radius: 5px;
 }
