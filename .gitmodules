@@ -1,0 +1,3 @@
+[submodule "pixels-art"]
+	path = pixels-art
+	url = git@github.com:Anderson-Alencar/Anderson-Alencar.github.io.git
